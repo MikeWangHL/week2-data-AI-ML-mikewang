@@ -87,3 +87,5 @@ The Decision Tree model achieved approximately 80% accuracy when predicting surv
 The most influential predictors were sex, passenger class, age, and fare.
 
 The model successfully identified patterns associated with survival and demonstrated how machine learning can use historical data to make predictions on new observations.
+
+<img width="1317" height="631" alt="decision_tree" src="https://github.com/user-attachments/assets/82935f6f-87a4-470e-89af-37b9e03f51f5" />
