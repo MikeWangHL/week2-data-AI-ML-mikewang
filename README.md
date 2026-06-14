@@ -1,6 +1,6 @@
-# week2-data-AI-ML-mikewang
-Titanic Survival Prediction using a Decision Tree
-week2-data-ml-mikewang
+# Titanic Survival Prediction Using a Decision Tree
+
+**Week 2 AI & ML Mentorship Project**
 
 │
 ├── README.md
@@ -16,6 +16,12 @@ This project uses a machine learning decision tree model to predict whether a pa
 
 I chose this project because it is a well-known machine learning classification problem and provides a good introduction to data cleaning, predictive modelling, and model evaluation.
 
+## Dataset
+
+This project uses the Titanic dataset, a widely used introductory machine learning dataset originally provided through Kaggle's "Titanic – Machine Learning from Disaster" competition.
+
+The objective is to predict passenger survival using demographic and travel-related information.
+
 ## How It Works
 
 The dataset was first explored to identify missing values and understand the available variables.
@@ -23,6 +29,8 @@ The dataset was first explored to identify missing values and understand the ava
 The age variable contained missing values, which were replaced using the median age. The categorical variable "sex" was converted into numerical values so it could be used by the model.
 
 The data was then split into training data (80%) and testing data (20%).
+
+A decision tree works by repeatedly splitting passengers into smaller groups based on characteristics that best separate survivors from non-survivors.
 
 A Decision Tree Classifier was trained on the training data and used to predict survival outcomes on the test data.
 
@@ -51,14 +59,18 @@ This helped me better understand how Pandas handles dataframe slicing and assign
 
 ## Results
 
-The Decision Tree model achieved an accuracy of approximately 79.9%.
+The Decision Tree model achieved an accuracy of approximately 79.9% on unseen test data.
+
+This means the model correctly classified roughly 80 out of every 100 passengers whose outcomes it had not previously seen.
 
 The most influential variables were:
 
-- Sex
-- Passenger Class
-- Age
-- Fare
+| Feature | Importance |
+|----------|------------|
+| Sex | 0.606 |
+| Passenger Class | 0.210 |
+| Age | 0.075 |
+| Fare | 0.061 |
 
 The model found that female passengers, younger passengers, and those travelling in higher classes generally had a greater chance of survival.
 
@@ -72,7 +84,7 @@ This project helped me understand the complete machine learning workflow:
 - Model training
 - Model evaluation
 
-I also gained experience using Google Colab and GitHub for managing machine learning projects.
+I also learned that model performance depends heavily on data preparation, and that handling missing values correctly is an important part of the machine learning workflow.
 
 ## Future Improvement
 
