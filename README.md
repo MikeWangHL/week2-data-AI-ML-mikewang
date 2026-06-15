@@ -87,6 +87,8 @@ The most influential variables were:
 | Age | 0.075 |
 | Fare | 0.061 |
 
+These results indicate that passenger sex was by far the strongest predictor of survival, followed by passenger class. Age and fare contributed to the model's decisions to a lesser extent, while the number of parents or children aboard had little influence on prediction outcomes.
+
 The model found that female passengers, younger passengers, and those travelling in higher classes generally had a greater chance of survival.
 
 ## What I Learned
