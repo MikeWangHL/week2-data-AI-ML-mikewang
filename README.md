@@ -2,13 +2,28 @@
 
 **Week 2 AI & ML Mentorship Project**
 
+Dataset: Titanic (Kaggle / Seaborn)
+
+Model: Decision Tree Classifier
+
+Accuracy: 79.9%
+
+## Repository Structure
+
+```text
+week2-data-ml-mikewang
 │
 ├── README.md
-│
 ├── Titanic_Project.ipynb
-│
 └── screenshots
     └── decision_tree.png
+```
+
+## Project Objective
+
+The goal of this project was to build a machine learning model capable of predicting passenger survival on the Titanic using demographic and travel-related information.
+
+The project demonstrates the fundamental stages of a machine learning workflow, including data exploration, cleaning, model training, evaluation, and interpretation.
 
 ## What the Project Does
 
