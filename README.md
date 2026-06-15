@@ -10,14 +10,12 @@ Accuracy: 79.9%
 
 ## Repository Structure
 
-```text
 week2-data-ml-mikewang
 │
 ├── README.md
 ├── Titanic_Project.ipynb
 └── screenshots
     └── decision_tree.png
-```
 
 ## Project Objective
 
