@@ -21,9 +21,9 @@ week2-data-ml-mikewang
 
 ## Project Objective
 
-The goal of this project was to build a machine learning model capable of predicting passenger survival on the Titanic using demographic and travel-related information.
+The objective of this project was to develop a machine learning model capable of predicting whether a passenger survived the Titanic disaster using demographic and travel-related information.
 
-The project demonstrates the fundamental stages of a machine learning workflow, including data exploration, cleaning, model training, evaluation, and interpretation.
+The project was completed as part of the Week 2 AI & ML Mentorship assignment and demonstrates the core stages of a machine learning workflow, including data exploration, data cleaning, feature preparation, model training, model evaluation, and interpretation of results.
 
 ## What the Project Does
 
