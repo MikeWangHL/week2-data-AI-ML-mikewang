@@ -8,14 +8,13 @@ Model: Decision Tree Classifier
 
 Accuracy: 79.9%
 
-## Repository Structure
+## Repository Contents
 
-week2-data-ml-mikewang
-│
-├── README.md
-├── Titanic_Project.ipynb
-└── screenshots
-    └── decision_tree.png
+* **README.md** – Project explanation, methodology, results, challenges, and reflections.
+
+* **Titanic_Project.ipynb** – Google Colab notebook containing the complete machine learning workflow, including data exploration, cleaning, model training, evaluation, and visualisation.
+
+* **decision_tree.png** (or embedded image below) – Visual representation of the trained Decision Tree model used to predict Titanic passenger survival.
 
 ## Project Objective
 
