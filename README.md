@@ -1,6 +1,6 @@
 # Titanic Survival Prediction Using a Decision Tree
 
-**Week 2 AI & ML Mentorship Project**
+## Week 2 AI & ML Mentorship Project
 
 Dataset: Titanic (Kaggle / Seaborn)
 
@@ -84,13 +84,15 @@ The most influential variables were:
 | Age | 0.075 |
 | Fare | 0.061 |
 
-These results indicate that passenger sex was by far the strongest predictor of survival, followed by passenger class. Age and fare contributed to the model's decisions to a lesser extent, while the number of parents or children aboard had little influence on prediction outcomes.
+These results indicate that passenger sex was the strongest predictor of survival, followed by passenger class. Age and fare also contributed to the model's decisions, while family-related variables had less influence.
+
+The findings are broadly consistent with historical accounts of the Titanic disaster, where women and passengers travelling in higher classes generally experienced higher survival rates.
 
 The model found that female passengers, younger passengers, and those travelling in higher classes generally had a greater chance of survival.
 
 ## What I Learned
 
-This project helped me understand the complete machine learning workflow:
+This project helped me understand:
 
 - Data exploration
 - Data cleaning
